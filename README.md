@@ -1,7 +1,7 @@
 # MapReduceCS6240
 Consists of assignments for the course CS6240 - Parallel Data Processing Using Map Reduce
 
-#multi threading performance evaluation
+#multi threading performance analysis
 -----------------------------------------
 
 This assignment evaluates the performance of various multi-threading approaches against the sequential approach. 
