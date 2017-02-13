@@ -1,0 +1,163 @@
+2017-02-11 22:28:24,031 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-8-49.ec2.internal/172.31.8.49:8032
+2017-02-11 22:28:26,180 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input paths to process : 1
+2017-02-11 22:28:26,193 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2017-02-11 22:28:26,196 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 60b8618a21bca805756fb1bc393c18c2512e4fc4]
+2017-02-11 22:28:26,574 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:17
+2017-02-11 22:28:26,681 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1486851932347_0001
+2017-02-11 22:28:26,944 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1486851932347_0001
+2017-02-11 22:28:26,975 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-8-49.ec2.internal:20888/proxy/application_1486851932347_0001/
+2017-02-11 22:28:26,975 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1486851932347_0001
+2017-02-11 22:28:38,095 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1486851932347_0001 running in uber mode : false
+2017-02-11 22:28:38,096 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2017-02-11 22:28:55,191 INFO org.apache.hadoop.mapreduce.Job (main):  map 2% reduce 0%
+2017-02-11 22:28:58,206 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2017-02-11 22:28:59,217 INFO org.apache.hadoop.mapreduce.Job (main):  map 12% reduce 0%
+2017-02-11 22:29:02,237 INFO org.apache.hadoop.mapreduce.Job (main):  map 14% reduce 0%
+2017-02-11 22:29:05,250 INFO org.apache.hadoop.mapreduce.Job (main):  map 17% reduce 0%
+2017-02-11 22:29:08,262 INFO org.apache.hadoop.mapreduce.Job (main):  map 25% reduce 0%
+2017-02-11 22:29:09,266 INFO org.apache.hadoop.mapreduce.Job (main):  map 28% reduce 0%
+2017-02-11 22:29:10,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 31% reduce 0%
+2017-02-11 22:29:11,277 INFO org.apache.hadoop.mapreduce.Job (main):  map 41% reduce 1%
+2017-02-11 22:29:12,282 INFO org.apache.hadoop.mapreduce.Job (main):  map 47% reduce 1%
+2017-02-11 22:29:13,285 INFO org.apache.hadoop.mapreduce.Job (main):  map 48% reduce 1%
+2017-02-11 22:29:14,288 INFO org.apache.hadoop.mapreduce.Job (main):  map 58% reduce 1%
+2017-02-11 22:29:15,291 INFO org.apache.hadoop.mapreduce.Job (main):  map 59% reduce 1%
+2017-02-11 22:29:16,294 INFO org.apache.hadoop.mapreduce.Job (main):  map 60% reduce 1%
+2017-02-11 22:29:17,297 INFO org.apache.hadoop.mapreduce.Job (main):  map 71% reduce 1%
+2017-02-11 22:29:18,303 INFO org.apache.hadoop.mapreduce.Job (main):  map 75% reduce 1%
+2017-02-11 22:29:19,306 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 1%
+2017-02-11 22:29:20,310 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 2%
+2017-02-11 22:29:21,314 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 14%
+2017-02-11 22:29:22,317 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2017-02-11 22:29:30,340 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 44%
+2017-02-11 22:29:31,343 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 89%
+2017-02-11 22:29:32,347 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2017-02-11 22:29:32,352 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1486851932347_0001 completed successfully
+2017-02-11 22:29:32,462 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=3124922
+		FILE: Number of bytes written=10446688
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1598
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1087655982
+		S3: Number of bytes written=694627
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=17
+		Launched reduce tasks=9
+		Data-local map tasks=17
+		Total time spent by all maps in occupied slots (ms)=27308544
+		Total time spent by all reduces in occupied slots (ms)=10360128
+		Total time spent by all map tasks (ms)=568928
+		Total time spent by all reduce tasks (ms)=107918
+		Total vcore-milliseconds taken by all map tasks=568928
+		Total vcore-milliseconds taken by all reduce tasks=107918
+		Total megabyte-milliseconds taken by all map tasks=873873408
+		Total megabyte-milliseconds taken by all reduce tasks=331524096
+	Map-Reduce Framework
+		Map input records=30868726
+		Map output records=223783
+		Map output bytes=8056188
+		Map output materialized bytes=4018316
+		Input split bytes=1598
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14135
+		Reduce shuffle bytes=4018316
+		Reduce input records=223783
+		Reduce output records=14135
+		Spilled Records=447566
+		Shuffled Maps =153
+		Failed Shuffles=0
+		Merged Map outputs=153
+		GC time elapsed (ms)=19103
+		CPU time spent (ms)=153200
+		Physical memory (bytes) snapshot=15585722368
+		Virtual memory (bytes) snapshot=98027868160
+		Total committed heap usage (bytes)=14260109312
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1087655982
+	File Output Format Counters 
+		Bytes Written=694627
+2017-02-11 22:29:32,464 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1486851932347_0001
+2017-02-11 22:29:32,467 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1486851932347_0001 running in uber mode : false
+2017-02-11 22:29:32,467 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2017-02-11 22:29:32,471 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1486851932347_0001 completed successfully
+2017-02-11 22:29:32,475 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 55
+	File System Counters
+		FILE: Number of bytes read=3124922
+		FILE: Number of bytes written=10446688
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1598
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=17
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1087655982
+		S3: Number of bytes written=694627
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=17
+		Launched reduce tasks=9
+		Data-local map tasks=17
+		Total time spent by all maps in occupied slots (ms)=27308544
+		Total time spent by all reduces in occupied slots (ms)=10360128
+		Total time spent by all map tasks (ms)=568928
+		Total time spent by all reduce tasks (ms)=107918
+		Total vcore-milliseconds taken by all map tasks=568928
+		Total vcore-milliseconds taken by all reduce tasks=107918
+		Total megabyte-milliseconds taken by all map tasks=873873408
+		Total megabyte-milliseconds taken by all reduce tasks=331524096
+	Map-Reduce Framework
+		Map input records=30868726
+		Map output records=223783
+		Map output bytes=8056188
+		Map output materialized bytes=4018316
+		Input split bytes=1598
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=14135
+		Reduce shuffle bytes=4018316
+		Reduce input records=223783
+		Reduce output records=14135
+		Spilled Records=447566
+		Shuffled Maps =153
+		Failed Shuffles=0
+		Merged Map outputs=153
+		GC time elapsed (ms)=19103
+		CPU time spent (ms)=153200
+		Physical memory (bytes) snapshot=15585722368
+		Virtual memory (bytes) snapshot=98027868160
+		Total committed heap usage (bytes)=14260109312
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1087655982
+	File Output Format Counters 
+		Bytes Written=694627
