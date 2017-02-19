@@ -4,7 +4,7 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
 ####  1) Performance Analysis of Multi-Threading methods : Coarse lock , Fine lock , No-shared locks, No-locks
 ####  2) Performance Analysis of Map Reduce Design Patterns : Combiner, In-Mapper , Secondary Sort 
 
-#multi threading performance analysis
+# Performance Analysis of multi-threading methods
 -----------------------------------------
 
 This assignment evaluates the performance of various multi-threading approaches against the sequential approach. 
@@ -107,6 +107,14 @@ d) No Sharing multi-threading example: Consits of code where I have implemented 
       
    g) Report : Contains details of findings of executing different locking mechanisms for 10 runs and executing word count in 
                local and cloud(AWS)
+               
+   # Performance Analysis of map-reduce design patterns for analysing weather data
+   
+   In this assignment, we are analysing performance of the following design patterns
+   a) No-Combiner Approach/Simple Map-Reduce 
+   b) Combiner Design pattern
+   c) In-Mapper Combining Design Pattern
+   d) Secondary Sort / Value-to-key conversion design pattern
                                        
 
 
