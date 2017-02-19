@@ -1,6 +1,9 @@
 # MapReduceCS6240
 Consists of assignments for the course CS6240 - Parallel Data Processing Using Map Reduce
 
+####  1) Performance Analysis of Multi-Threading methods : Coarse lock , Fine lock , No-shared locks, No-locks
+####  2) Performance Analysis of Map Reduce Design Patterns : Combiner, In-Mapper , Secondary Sort 
+
 #multi threading performance analysis
 -----------------------------------------
 
