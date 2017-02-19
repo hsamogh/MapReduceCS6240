@@ -109,6 +109,7 @@ d) No Sharing multi-threading example: Consits of code where I have implemented 
                local and cloud(AWS)
                
    # Performance Analysis of map-reduce design patterns for analysing weather data
+   --------------------------------------------------------------------------------
    
    In this assignment, we are analysing performance of the following design patterns
    a) No-Combiner Approach/Simple Map-Reduce 
