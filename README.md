@@ -5,7 +5,6 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
 ####  2) Performance Analysis of Map Reduce Design Patterns : Combiner, In-Mapper , Secondary Sort 
 
 # Performance Analysis of multi-threading methods
------------------------------------------
 
 This assignment evaluates the performance of various multi-threading approaches against the sequential approach. 
 In this assignment we are using the data from 
