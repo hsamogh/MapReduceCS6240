@@ -88,9 +88,7 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
       
    g) Report : Contains details of findings of executing different locking mechanisms for 10 runs and executing word count in 
                local and cloud(AWS)
-               
-   
- ## Performance Analysis of map-reduce design patterns for analysing weather data
+# Performance Analysis of map-reduce design patterns for analysing weather data
    
    In this assignment, we are analysing performance of the following design patterns
    a) No-Combiner Approach/Simple Map-Reduce 
