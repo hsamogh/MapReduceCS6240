@@ -3,6 +3,9 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
 
 ####  1) Performance Analysis of Multi-Threading methods : Coarse lock , Fine lock , No-shared locks, No-locks
 ####  2) Performance Analysis of Map Reduce Design Patterns : Combiner, In-Mapper , Secondary Sort 
+####  3) Computing Page Rank Using Map Reduce On Wikipedia Dataset
+####  4) Computing Page Rank Using Spark
+####  5) Computing Page Rank Using Matrix Multiplication
 ---
 # Performance Analysis of multi-threading methods
 
@@ -91,6 +94,10 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
    b) Combiner Design pattern
    c) In-Mapper Combining Design Pattern
    d) Secondary Sort / Value-to-key conversion design pattern
+
+# Page Rank Using Map-Reduce
+
+   In this assignment, I have computed page rank for wikipedia dumps data. The data is processed to obtain a graph having the    structure PageName : Adjacency List
                                        
 
 
