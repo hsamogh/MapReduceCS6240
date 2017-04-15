@@ -26,31 +26,18 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
    Following is the description of the contents of folder
 
    a) no-lock-multithreading-example : Consits of code where I have implemented the multi-threaded without having any locking
-   mechanisms on data structure. though this produces fastest result, the results are not consistent and problems that we        would generally expect to find with concurrency can be seen in this code.The main class is in nl.java. This class calls        nlSum.java.
-   In order to see the effects of this multi-threading approach on large datasets, I have provided an option to execute 
-   fibonacci(17) that simulates the effect of large data set by introducing delays between updates on data set
-   
+   mechanisms on data structure. The details of implementation and performance is present in the report
       
    b) Coarse lock multi-threading example : Consits of code where I have implemented the multi-threaded with coarse lock
-   as locking mechanisms on data structure.In this code , we lock the whole data structure when a thread is trying to            update a value in data structure.The main class is in cl.java. This class calls clSum.java
-   In order to see the effects of this multi-threading approach on large datasets, I have provided an option to execute 
-   fibonacci(17) that simulates the effect of large data set by introducing delays between updates on data set.
+   as locking mechanisms on data structure. The details of implementation and performance is present in the report
       
-   
    c) Fine Lock multi-threading example: Consits of code where I have implemented the multi-threaded with fine lock
-   as locking mechanisms on data structure.In this code , we lock only the variable beign updated by the thread instead of 
-   the whole data structure.The main class is in fl.java. This class calls flSum.java
-   In order to see the effects of this multi-threading approach on large datasets, I have provided an option to execute 
-   fibonacci(17) that simulates the effect of large data set by introducing delays between updates on data set.
+   as locking mechanisms on data structure.The details of implementation and performance is present in the report
 
+   d) No Sharing multi-threading example: Consits of code where I have implemented the multi-threaded with no sharing            mechanisms.The details of implementation and performance is present in the report
+
+   e)Sequential Code : Sequential Code consists of sequential execution of calculating average TMAX values from the file per      station-id.The details of implementation and performance is present in the report
    
-   d) No Sharing multi-threading example: Consits of code where I have implemented the multi-threaded with no sharing            mechanisms.The threads have their own data structures . Once all threads are executed successfully, the individual data        structures are merged sequentially to form a single data structure .The main class is in noSharing.java. This class            calls nsSum.java
-   In order to see the effects of this multi-threading approach on large datasets, I have provided an option to execute 
-   fibonacci(17) that simulates the effect of large data set by introducing delays between updates on data set
-   
-   e)Sequential Code : Sequential Code consists of sequential execution of calculating average TMAX values from the file per      station-id. 
-     
-                     
    f) Word Count : Consists of details of execution of sample word count program available on 
       https://wiki.apache.org/hadoop/WordCount on local and cloud(AWS)
       
