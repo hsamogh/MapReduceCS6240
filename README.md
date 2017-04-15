@@ -71,6 +71,10 @@ Consists of assignments for the course CS6240 - Parallel Data Processing Using M
    
 # Page Rank Using Spark
    In this assignment, we are computing page ranks for data from wikipedia dumps using Spark. The details of implementation are present in the report
+   
+# Page Rank in Map-Reduce using Matrix Multiplication
+
+   In this assignment, we are computing page ranks for data from wikipedia dumps using matrix multiplication. We are comparing the performance of row-based partition, column based partition and performance of sparse matrix. The details of implementation are present in report
                                        
 
 
